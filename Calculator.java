@@ -6,7 +6,7 @@ public class Calculator{
 	public int sub(int a, int b) {
         return a - b;
 
-		
+
     	}
 
 	public int mul(int a, int b) {
@@ -15,5 +15,8 @@ public class Calculator{
 	public double div (int a, int b) {
 		return a / b;
 		}
+    public double mod (int a, int b) {
+		return a % b;		
+	}
 	
 }
